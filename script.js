@@ -27,10 +27,10 @@ function getContents(e) {
   //choose URL depending on id //KzW6J0DbGeAl45Wl0Np6SZPJalttCYIv  "http://www.omdbapi.com/?&apikey=a92d1656&s=";
   let url;
   if (id === "movie_btn") {
-    url = "http://www.omdbapi.com/?apikey=a92d1656&s=";
+    url = "https://www.omdbapi.com/?apikey=a92d1656&s=";
   } else {
     url =
-      "http://api.giphy.com/v1/gifs/search?api_key=KzW6J0DbGeAl45Wl0Np6SZPJalttCYIv&limit=12&q=";
+      "https://api.giphy.com/v1/gifs/search?api_key=KzW6J0DbGeAl45Wl0Np6SZPJalttCYIv&limit=12&q=";
   }
   url = url.concat(searchKey);
 
