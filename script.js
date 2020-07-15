@@ -7,7 +7,6 @@ function appendContents(content, type) {
   card.setAttribute("class", "card-body");
   let title = document.createElement("h5");
   title.setAttribute("class", "card-title");
-  debugger;
 
   let img = document.createElement("img");
   img.setAttribute("class", "card-img-top");
